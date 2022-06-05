@@ -1,2 +1,2 @@
-# COMP229_Assignment1_SohyeonSong
+# COMP229_Assignment1_ShivamManiya
  COMP229_Assignment1
