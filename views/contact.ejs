@@ -1,0 +1,40 @@
+
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<main class="container" >
+  
+        <div class="row">
+            <h1>Shivam Maniya</h1>
+            <p><a href="shivammaniya7469@gmail.com">Email: shivammaniya7469@gmail.com</a></p>
+            <p>Phone Number: 6474512728</p>
+        </div>
+      <div class="row mb-5">
+        <p >Contact Me!</p>
+        <p>Please complete below form; your details are secured to me.</p>
+        <form>
+            <div class="mb-3 col-sm-12">
+                <h5><label >First Name :</label></h5>
+                <input type="text" id="fName" class="col-sm-12" placeholder="First Name" required="required">
+            </div>
+            <div class="mb-3" >
+                <h5><label > Last Name :</label></h5>
+                <input type="text" id="lName" class="col-sm-12" placeholder="Last Name"  required="required">
+            </div><br>
+            <div class="mb-3">
+                <h5><label >Email address :</label></h5>
+                <input type="email" id="email" class="col-sm-12"  placeholder="username@example.com"required="required">
+            </div>
+            <button type="submit" class="btn btn-success"  onclick="showAlert();">Submit Info</button>
+            <button type="reset" class="btn btn-warning">Clear Form</button>
+        </form>
+
+     </div>
+  </main>
+
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
